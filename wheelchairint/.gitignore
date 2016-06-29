@@ -1,0 +1,18 @@
+#single files
+*.*~
+.project
+.cproject
+.pydevproject
+user_intentions.kdev4
+cmake_install.cmake
+.settings
+CMakeCache.txt
+mainpage.dox
+/include
+/CMakeFiles
+/build
+/bin
+/lib
+/cmake/
+/CTestTestfile.cmake
+/Makefile
