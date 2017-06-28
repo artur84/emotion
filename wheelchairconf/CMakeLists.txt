@@ -9,6 +9,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  amcl
+  map_server
 )
 
 ## System dependencies are found with CMake's conventions
@@ -83,7 +85,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES emotion
-  CATKIN_DEPENDS roslib roscpp rospy std_msgs
+  CATKIN_DEPENDS roslib roscpp rospy std_msgs amcl map_server
 #  DEPENDS system_lib
 )
 
