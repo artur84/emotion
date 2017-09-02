@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>emotion</name>
+  <version>0.0.0</version>
+  <description>The emotion meta_package</description>
+  <maintainer email="artur@todo.todo">artur</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>arduimu_driver</run_depend>
+  <run_depend>controller</run_depend>
+  <run_depend>my_armsim</run_depend>
+  <run_depend>pal_msgs</run_depend>
+  <run_depend>social_filter</run_depend>
+  <run_depend>trajectory_simulator</run_depend>
+  <run_depend>user_intentions</run_depend>
+  <run_depend>wheelchair</run_depend>
+  <run_depend>wheelchairconf</run_depend>
+  <run_depend>wheelchairint</run_depend>
+  <!-- The export tag contains other, unspecified, tags -->
+ <export>
+   <metapackage />
+ </export>
+</package>
