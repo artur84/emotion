@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="model" default="$(find my_armsim)/urdf/r2d2_moving.urdf" />
+  <arg name="model" default="$(find my_armsim)/urdf/arm_4DOF.urdf" />
   <arg name="gui" default="true" />
   <arg name="rvizconfig" default="$(find my_armsim)/rviz/urdf.rviz" />
 
