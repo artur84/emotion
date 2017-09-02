@@ -1,0 +1,15 @@
+<package>
+  <description brief="artools_launch">
+
+     artools_launch
+
+  </description>
+  <author>artur</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/artools_launch</url>
+  <depend package="ar_pose"/>
+
+</package>
+
+
