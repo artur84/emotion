@@ -12,7 +12,7 @@ from copy import deepcopy
 import numpy as np
 #=============================================================================
 #==============================================================================
-class FalseOdomPub():
+class OdomPub():
 
     def __init__(self):
         """Takes cmd_vel topic and position of the wheelchair and resend it as a false odometry topic
@@ -32,7 +32,7 @@ class FalseOdomPub():
         self.theta = 0
         self.prev_vx =0
         self.prev_vtheta =0
-        self.alpha =0.8
+        self.alpha = 0.8
         self.beta = 0.9
         self.count =10
         self.vx = 0
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     """Initializing ROS node"""
     rospy.init_node('false_odom_publisher')
     try:
-        FalseOdomPub()
+        OdomPub()
     except:
-        rospy.logfatal("false_odom_publisher.py  died")
+        rospy.logfatal("odometry_publisher.py  died")
         pass
